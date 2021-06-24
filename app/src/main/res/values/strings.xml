@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">raj2</string>
+    <string name="title_home">home</string>
+    <string name="title_sellcar">sellcar</string>
+    <string name="title_settings">settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="HomeFregment">Homefregment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Vehicles</string>
+    <string name="tab_text_2">User</string>
+    <string name="tab_text_3">Rating</string>
+
+    <string name="tab_text_one">Login</string>
+    <string name="tab_text_two">Logout</string>
+    <string name="Raj">Raj</string>
+    <string name="Parth">Parth</string>
+    <string name="DineshTina">DineshTina</string>
+    <string name="B23Parth">B23_Parth</string>
+    <string name="Khushi">Khushi</string>
+</resources>

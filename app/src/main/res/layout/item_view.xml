@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:backgroundTint="@color/black"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Username:"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:id="@+id/txt1"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/txt1"
+            android:text="Parth"
+            android:id="@+id/uname"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="Email:"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/txt2"
+            android:layout_below="@id/uname"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/uname"
+            android:layout_toRightOf="@id/txt2"
+            android:text="nagarparth83@gmail.com"
+            android:id="@+id/uemail"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/txt3"
+            android:layout_below="@id/uemail"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="9998054407"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/txt3"
+            android:layout_below="@id/uemail"
+            android:id="@+id/upno"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/upno"
+            ></TextView>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

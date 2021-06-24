@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:backgroundTint="@color/black"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="Mahindra"
+            android:id="@+id/cname"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cname"
+            android:text="Suv"
+            android:id="@+id/mname"
+            ></TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="2019"
+            android:layout_below="@+id/mname"
+            android:id="@+id/year"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/mname"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/year"
+            android:text="Reverse"
+            android:id="@+id/variant"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="Black"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/variant"
+            android:layout_below="@id/mname"
+            android:id="@+id/color"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="13500"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/color"
+            android:layout_below="@id/mname"
+            android:id="@+id/cyear"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="265000"
+            android:layout_below="@id/year"
+            android:id="@+id/cprice"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/cprice"
+            ></TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

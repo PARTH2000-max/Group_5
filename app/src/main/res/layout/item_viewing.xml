@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/black"
+    android:padding="10dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Mahindra"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:id="@+id/rname"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/rname"
+            android:text="Suv"
+            android:id="@+id/rmname"
+            ></TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="2019"
+            android:layout_below="@+id/rmname"
+            android:id="@+id/ryear"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/rmname"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/ryear"
+            android:text="Reverse"
+            android:id="@+id/rvariant"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Black"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/rvariant"
+            android:layout_below="@id/rmname"
+            android:id="@+id/rcolor"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="13500"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/rcolor"
+            android:layout_below="@id/rmname"
+            android:id="@+id/rkm"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="265000"
+            android:layout_below="@id/ryear"
+            android:id="@+id/rprice"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:text="5"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/ryear"
+            android:layout_toRightOf="@id/rprice"
+            android:id="@+id/rrating"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textSize="20dp"
+            android:background="@color/white"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/rrating"
+            ></TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DineshTina.MainActivityDinesh"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Raj2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="?actionBarSize"
+                android:padding="@dimen/appbar_padding"
+                android:textColor="@color/white"
+                android:text="B39_Tina And B46_Dinesh"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonks"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/title"
+                android:layout_marginLeft="20dp"
+                android:text="@string/Khushi"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                ></Button>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+        android:textColor="@color/black"
+        android:text="Colors" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="6sp">
+
+
+        <CheckBox
+            android:id="@+id/blue"
+            android:layout_width="70sp"
+            android:layout_height="59dp"
+            android:text="Blue"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/green"
+            android:layout_width="70sp"
+            android:layout_height="59dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Green"
+            app:layout_constraintBottom_toBottomOf="@+id/blue"
+            app:layout_constraintStart_toEndOf="@+id/blue" />
+
+        <CheckBox
+            android:id="@+id/black"
+            android:layout_width="70sp"
+            android:layout_height="59dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Black"
+            app:layout_constraintBottom_toBottomOf="@+id/green"
+            app:layout_constraintStart_toEndOf="@+id/green"
+            app:layout_constraintTop_toTopOf="@+id/green"
+            app:layout_constraintVertical_bias="0.454" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/Brands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+        android:textColor="@color/black"
+        android:text="Brands" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="6sp">
+
+
+        <CheckBox
+            android:id="@+id/nissan"
+            android:layout_width="78sp"
+            android:layout_height="59dp"
+            android:text="Nissan"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/ford"
+            android:layout_width="70sp"
+            android:layout_height="59dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Ford"
+            app:layout_constraintBottom_toBottomOf="@+id/nissan"
+            app:layout_constraintStart_toEndOf="@+id/nissan" />
+
+        <CheckBox
+            android:id="@+id/benz"
+            android:layout_width="70sp"
+            android:layout_height="59dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Benz"
+            app:layout_constraintBottom_toBottomOf="@+id/ford"
+            app:layout_constraintStart_toEndOf="@+id/ford"
+            app:layout_constraintTop_toTopOf="@+id/ford"
+            app:layout_constraintVertical_bias="0.454" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/insured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+        android:textColor="@color/black"
+        android:text="Insured" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="6sp">
+
+        <CheckBox
+            android:id="@+id/insure"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="Is Insured"
+            tools:ignore="MissingConstraints">
+
+        </CheckBox>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+        android:textColor="@color/black"
+        android:text="Price" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="6sp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/min"
+            android:hint="Minimum Price"
+            android:inputType="number"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:hint="Maximum Price"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textFontWeight="@android:integer/status_bar_notification_info_maxnum"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/min"
+            app:layout_constraintTop_toTopOf="@+id/min" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:text="Show Result"
+        android:onClick="show"
+        tools:ignore="OnClick">
+
+    </Button>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
